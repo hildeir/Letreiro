@@ -54,7 +54,7 @@ function calcLastItemPassScreen(itemsArray,totalItems){
     const rect = lastItemPos.getBoundingClientRect();
     const xLast = rect.left;
 
-    if(xLast > 1920){
+    if(xLast > larguraJanela){
         return true;
     }else{
         return false;
